@@ -4,7 +4,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello Docker! 🚀"
+    return """
+    <h1>Hello Docker! 🚀</h1>
+    <p>Hey buddy, what's going on?</p>
+    """
+
     
 
 if __name__ == "__main__":
