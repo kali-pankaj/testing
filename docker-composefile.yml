@@ -1,0 +1,13 @@
+# versioon ""
+
+services: 
+  web:
+    flask-app:
+    build: .
+    container_name: my_container
+    ports:
+      - "5555:80"
+    
+
+
+      
